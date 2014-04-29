@@ -274,4 +274,4 @@ class PluginOpenSSLCipherSuites(PluginBase.PluginBase):
             return None
 
         finally:
-            sslConn.close
+            sslConn.close()
